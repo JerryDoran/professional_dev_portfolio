@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header" id="home">
+      <div class="menu">
+        <span class="bar"></span>
+      </div>
+
+      <nav class="nav">
+        <div class="brand">
+          <img src="images/mylogowhite.png" width="160" alt="my logo" />
+        </div>
+        <div class="overlay">
+          <ul>
+            <li class="nav-link"><a href="#home">Home</a></li>
+            <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-link"><a href="#skills">Skills</a></li>
+            <li class="nav-link"><a href="#tech">Tech</a></li>
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="img-wrapper">
+        <img src="images/initiative.jpg" alt="Furniture" />
+      </div>
+      <div class="banner">
+        <h1>Custom Software Development</h1>
+        <p>Give your business the edge it deserves.</p>
+        <button>Learn More</button>
+      </div>
+    </header>
+
+    <!-- Skills section -->
+    <section class="my-tech">
+      <div class="section-header">
+        <h1 class="section-heading">My</h1>
+        <h2 class="custom-font-secondary">Technologies</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="services">
+        <div class="service">
+          <div class="service-header">
+            <img class="tech-image" src="images/html5.svg" alt="" />
+            <h3>HTML</h3>
+          </div>
+          <p class="service-text">
+            Elegant form creation, rich user interface enhancements and better
+            consistency provide cleaner and neater code in my markup.
+          </p>
+        </div>
+        <div class="service">
+          <div class="service-header">
+            <img class="tech-image" src="images/css3.svg" alt="" />
+            <h3>CSS</h3>
+          </div>
+          <p class="service-text">
+            I am able to make global changes to update many elements all at once
+            utilizing CSS variables. Helps me to provide better compatibility
+            with future browsers.
+          </p>
+        </div>
+        <div class="service">
+          <div class="service-header">
+            <img class="tech-image" src="images/javascript.svg" alt="" />
+            <h3>JavaScript</h3>
+          </div>
+          <p class="service-text">
+            Allows me to create rich interactive interfaces such as drag and
+            drop areas and custom components that enhance a user's overall
+            experience.
+          </p>
+        </div>
+        <div class="service">
+          <div class="service-header">
+            <img class="tech-image" src="images/mongodb.svg" alt="" />
+            <h3>MongoDB</h3>
+          </div>
+          <p class="service-text">
+            I am able to create flexible and scalable applications with rich
+            querying capabilities which gives my applications speed and
+            performance through the use of no SQL databases.
+          </p>
+        </div>
+        <div class="service">
+          <div class="service-header">
+            <img class="tech-image" src="images/node-dot-js.svg" alt="" />
+            <h3>Node.js</h3>
+          </div>
+          <p class="service-text">
+            I complete my stack with the speed and flexibility that Node.js
+            provides. The use of Express.js and other libraries allows for
+            highly extensible and performant applications.
+          </p>
+        </div>
+        <div class="service">
+          <div class="service-header">
+            <img class="tech-image" src="images/mysql.png" alt="" />
+            <h3>MySQL</h3>
+          </div>
+          <p class="service-text">
+            I also have the skills and knowledge of providing relational
+            database support when needed or desired such as using MySQL or SQL
+            Server databases.
+          </p>
+        </div>
+        <div class="about-us-img-wrapper">
+          <img src="images/tech.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio">
+      <div class="section-header">
+        <h1 class="section-heading">My</h1>
+        <h2 class="custom-font-secondary">Work</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="cards-wrapper">
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/project-manager.png" alt="project-manager" />
+          </div>
+          <div class="card-info">
+            <h2>Project Manager</h2>
+            <h3>ProjectManager is a pwa that lets you create, edit, read and
+              delete projects.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. At,
+              consectetur!
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/person-2.jpg" alt="Designer" />
+          </div>
+          <div class="card-info">
+            <h2>Jane Doe</h2>
+            <h3>Designer</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. At,
+              consectetur!
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="card" data-tilt>
+          <div class="card-img-wrapper">
+            <img src="images/person-3.jpg" alt="Architect" />
+          </div>
+          <div class="card-info">
+            <h2>Mary Doe</h2>
+            <h3>Architect</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. At,
+              consectetur!
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact">
+      <div class="contact-wrapper">
+        <div class="contact-left"></div>
+        <div class="contact-right">
+          <h1 class="contact-heading">Contact</h1>
+          <form>
+            <div class="input-group">
+              <input type="text" class="field" />
+              <label class="input-label">Full Name</label>
+            </div>
+            <div class="input-group">
+              <input type="email" class="field" />
+              <label class="input-label">Email</label>
+            </div>
+            <div class="input-group">
+              <textarea class="field"></textarea>
+              <label class="message">Message</label>
+            </div>
+            <input type="submit" class="submit-btn" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">
+          Copyright &copy; 2020, DoranSoftware - All rights reserved
+        </p>
+        <div class="social-list">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll button -->
+    <a href="#" class="scroll-btn"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="tilt.js"></script>
+  </body>
+</html>
