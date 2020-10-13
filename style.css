@@ -29,6 +29,7 @@ body {
 :root {
   --main-font-color: #c29525;
   --main-white: #fff;
+  --main-blue:  lightslategray;
   --main-font-dark-gray: #0f0f0f;
   --main-footer-bg-color: #141414;
   --main-font-family: 'Baloo Da 2', serif;
@@ -374,19 +375,19 @@ header {
 .btn {
   display: flex;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 5px;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
-  background-color: var(--main-font-dark-gray);
+  background-color: var(--main-blue);
   color: #fff;
   width: 120px;
-  transition: background 500ms;
 }
 
 .btn:hover {
   background: var(--main-font-color);
   color: #fff;
+  transition: background 500ms;
 }
 
 .btn i {
