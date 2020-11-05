@@ -42,7 +42,7 @@
       <div class="banner">
         <h1>Custom Software Development</h1>
         <p>Give your business the edge it deserves.</p>
-        <button>Learn More</button>
+        <a href="#portfolio">Learn More</a>
       </div>
     </header>
 
@@ -358,7 +358,18 @@
         <div class="contact-left"></div>
         <div class="contact-right">
           <h1 class="contact-heading">Contact</h1>
-          <form>
+          <form
+            name="contact"
+            method="POST"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+              <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+              /></label>
+            </p>
             <div class="input-group">
               <input type="text" class="field" />
               <label class="input-label">Full Name</label>
