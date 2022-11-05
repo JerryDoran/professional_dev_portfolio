@@ -157,8 +157,8 @@ body {
 
 /* Hamburger Menu */
 .menu {
-  padding: 2rem 2.5rem;
-
+  padding: 0.5rem 1.5rem;
+  height: 3rem;
   /* Hamburger menu will stay fixed on screen */
   position: fixed;
   top: 3rem;
@@ -175,7 +175,7 @@ body {
   content: '';
   position: absolute;
   height: 2px;
-  width: 3rem;
+  width: 2rem;
   background-color: var(--main-white);
   top: 0;
   left: 0;
@@ -186,11 +186,11 @@ body {
 }
 
 .menu .bar::before {
-  top: -2rem;
+  top: -1.35rem;
 }
 
 .menu .bar::after {
-  top: 2rem;
+  top: 0.8rem;
 }
 
 .active .bar {
